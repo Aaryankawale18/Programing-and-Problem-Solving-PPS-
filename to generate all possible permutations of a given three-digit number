@@ -1,0 +1,11 @@
+from itertools import permutations
+
+digits = input("Enter a three-digit number: ")
+
+if len(digits) != 3 or not digits.isdigit():
+    print("Please enter a valid three-digit number")
+else:
+    combinations = permutations(digits)
+    print("All possible combinations of the three-digit number are:")
+    for combo in combinations:
+        print("".join(combo))
