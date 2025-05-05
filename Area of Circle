@@ -1,4 +1,4 @@
-# Area of triangle
+# Area of circle
 r = int(input("Enter the radius : "))
 PI = 3.14
 Area = PI * r * r;
