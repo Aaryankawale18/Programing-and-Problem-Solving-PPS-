@@ -1,0 +1,16 @@
+Maths = float(input('Enter the Marks : '))
+Python = float(input('Enter the Marks : '))
+C = float(input('Enter the Marks : '))
+Phy = float(input('Enter the Marks : '))
+Chem = float(input('Enter the Marks : '))
+
+P = ((Maths + Python + C + Phy + Chem)/500)*100
+
+if P>=85:
+    print("Your Grade is A")
+elif P>=75 and P<=84 :
+    print("Your Grade is  B")
+elif P>=65 and P<=74 :
+    print("Your Grade is C")
+else :
+    print("Your Grade is D")
