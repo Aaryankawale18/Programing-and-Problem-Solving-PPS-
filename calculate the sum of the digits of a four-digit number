@@ -1,0 +1,10 @@
+num = int(input('Enter a 4-digit number : '))
+original = num
+lastDigit = num % 10
+temp = int(num / 10)
+secondDigit = temp % 10
+temp = int(temp / 10)  # This line was corrected to properly calculate thirdDigit
+thirdDigit = temp % 10
+firstDigit = int(num / 1000)
+sum = firstDigit + secondDigit + thirdDigit + lastDigit
+print("Sum of all digits is %d" % sum)
